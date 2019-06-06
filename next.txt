@@ -1,0 +1,22 @@
+1、布局
+2、下拉效果
+3、数据渲染
+4、路由配置
+
+1、前后端架构
+- 前后端分离：前端后端两套系统，前端通过http请求后端接口，后端只关注接口开发，通过index.html/index.php 来和前端对接
+- 前端架构：
+RMVC + gulp + 模块化（commonJS，ES Module）+ CSS预处理工具（sass）+ 前端模板 + Mock数据 + UI框架 + JS库
+
+2、gulp
+- 启动server gulp-webserver
+- JS模块化 webpack-stream
+- CSS预处理 gulp-sass
+- Mock数据 http-proxy-middleware
+- 生产环境和开发环境分离 gulp --gulpfile
+- 版本号控制 gulp-rev rev-collector
+
+3、RMVC
+- 路由：两种方式 hash history
+- 生命周期函数：在某个条件成立时自动执行
+404页面 ==> 免战牌页面
