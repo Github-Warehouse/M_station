@@ -9,6 +9,31 @@ html {
   height: 100%;
 }
 .container {
+  .head ,.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.4rem;
+    font-size: 0.16rem;
+    color: #999999;
+  }
+  .head img,
+  .foot img {
+    width: 0.16rem;
+    height: 0.16rem;
+    transition: transform 150ms;
+    -webkit-transition: transform 150ms;
+  }
+  .head img {
+    transform: rotate(180deg);
+  }
+  .up {
+    transform: rotate(360deg) !important;
+    -webkit-transform: rotate(360deg) !important;
+  }
+  .down {
+    transform: rotate(180deg);
+  }
   display: flex;
   flex-direction: column;
   header {
@@ -38,6 +63,7 @@ html {
       justify-content: space-around;
       align-items: center;
       .m-searchbanner {
+        padding: 0.01rem 0rem 0rem 0.08rem;
         width: 2.5rem;
         height: 0.3rem;
         border: 0.02rem solid #ff0000;
@@ -82,8 +108,8 @@ html {
 
     .m-commodities {
       background: #efefef;
-      header{
-          font-size: .25rem;
+      header {
+        font-size: 0.25rem;
       }
       .m-commodity {
         margin: 0px;
@@ -106,11 +132,11 @@ html {
           .title {
             font-size: 0.12rem;
             width: 1.4rem;
-            padding: 0px .1rem;
+            padding: 0px 0.1rem;
           }
           .current {
             display: flex;
-            padding: 0px .1rem;
+            padding: 0px 0.1rem;
             p {
               font-size: 0.15rem;
               font-weight: bold;
@@ -120,5 +146,27 @@ html {
         }
       }
     }
+  }
+  .m-docfoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .navlist {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      li {
+        list-style: none;
+        font-size: 0.2rem;
+        padding: 0.2rem 0.15rem 0.12rem 0.15rem;
+        color: #999999;
+      }
+    }
+  }
+  .aboutnest {
+    display: flex;
+    justify-content: center;
+    font-size: 0.15rem;
+    color: #999999;
   }
 }

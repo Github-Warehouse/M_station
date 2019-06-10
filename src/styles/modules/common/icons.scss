@@ -5,8 +5,18 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: .26rem;
+  font-size: .2rem;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfontShop{
+  @extend .iconfont;
+  font-size: .26rem;
+}
+.iconfontKaoLa{
+  @extend .iconfont;
+  font-size: .15rem;
+  padding: 0 0.1rem;
 }
