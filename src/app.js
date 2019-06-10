@@ -1,5 +1,6 @@
 const indexTpl = require('./views/index.html')
-const { list } = require('./controllers/position')
 const renderIndexTpl = template.render(indexTpl, {})
-// list()
+
+import indexController from './controllers/index'
 $('#app').html(renderIndexTpl)
+indexController.renderList()

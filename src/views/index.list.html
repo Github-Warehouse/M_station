@@ -1,0 +1,14 @@
+{{each data}}
+<li>
+    <div class="img">
+        <img src="{{$value.img}}" alt="">
+    </div>
+    <div class="title">
+        {{$value.text}}
+    </div>
+    <div class="current">
+        <p class="currentMoneyIcon">￥</p>
+        <p>{{$value.money}}</p>
+    </div>
+</li>
+{{/each}}

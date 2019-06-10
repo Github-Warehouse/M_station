@@ -64,16 +64,57 @@ html {
 
     .banner-slider-wrap {
       .m-imgslider-wrap {
-          display: flex;
-          justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
         ul {
-            margin: 0px;
-            padding: 0px;
+          margin: 0px;
+          padding: 0px;
           li {
             list-style: none;
             img {
               width: 3.45rem;
               height: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+
+    .m-commodities {
+      background: #efefef;
+      header{
+          font-size: .25rem;
+      }
+      .m-commodity {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li {
+          background: #ffffff;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          margin: 10px 0px;
+          .img {
+            img {
+              width: 1.65rem;
+              height: 1.5rem;
+            }
+          }
+          .title {
+            font-size: 0.12rem;
+            width: 1.4rem;
+            padding: 0px .1rem;
+          }
+          .current {
+            display: flex;
+            padding: 0px .1rem;
+            p {
+              font-size: 0.15rem;
+              font-weight: bold;
+              color: #e30000;
             }
           }
         }
