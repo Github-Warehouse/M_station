@@ -1,0 +1,52 @@
+.selectlogintype {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .m-logo {
+    img {
+      width: 3.6rem;
+    }
+  }
+  .selectbox {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    li {
+      list-style: none;
+      font-size: 0.1rem;
+      border: 0.01rem solid #999999;
+      height: 0.44rem;
+      width: 3rem;
+      margin: 0.1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        padding: 0.03rem;
+      }
+    }
+    li:nth-of-type(3) {
+      background: rgb(0, 0, 0);
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+  .lnk {
+    .tit {
+      font-size: 0.1rem;
+      color: #999999;
+    }
+  }
+  .m-thirdpart {
+    margin: 0;
+    padding: 0;
+    a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+  }
+}

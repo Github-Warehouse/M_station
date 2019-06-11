@@ -20,3 +20,11 @@
   font-size: .15rem;
   padding: 0 0.1rem;
 }
+.u-iconfont-zi{
+  @extend .iconfont;
+  font-size: .15rem;
+}
+.u-iconfont{
+  @extend .iconfont;
+  font-size: .12rem;
+}

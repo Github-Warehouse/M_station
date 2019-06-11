@@ -1,7 +1,6 @@
-const indexTpl = require('./views/index.html')
-const renderIndexTpl = template.render(indexTpl, {})
-
 import indexController from './controllers/index'
+import {router} from './router/hash'
 
-$('#app').html(renderIndexTpl)
-indexController.renderList()
+indexController.render()
+
+router.init()
