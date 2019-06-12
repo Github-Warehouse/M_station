@@ -35,18 +35,28 @@
     }
   }
   .lnk {
+    padding: .2rem 0 0;
     .tit {
       font-size: 0.1rem;
       color: #999999;
     }
   }
   .m-thirdpart {
-    margin: 0;
-    padding: 0;
-    a {
-      margin: 0;
-      padding: 0;
-      text-decoration: none;
+    width: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .proto{
+    padding: .2rem 0 0;
+    font-size: 0.01rem;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    p{
+      a{
+        color: #999999;
+      }
     }
   }
 }

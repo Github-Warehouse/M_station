@@ -1,0 +1,67 @@
+.registerBox {
+  .m-topnavbar {
+    height: 0.44rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.001rem solid #c7c5c5;
+    span {
+      font-size: 0.2rem;
+      color: #666464;
+    }
+  }
+  img {
+    width: 3.6rem;
+  }
+  .u-input {
+    display: flex;
+    justify-content: center;
+    form {
+      font-size: 0.1rem;
+      input:nth-of-type(1),
+      input:nth-of-type(2) {
+        height: 0.44rem;
+        width: 3.5rem;
+        background: rgb(247, 247, 247);
+        border: none;
+        margin: 0.1rem;
+      }
+      .code {
+        input {
+          height: 0.44rem;
+          width: 2.4rem;
+        }
+        a {
+          text-decoration: none;
+          font-size: 0.1rem;
+          border: 0.01rem solid #999999;
+          color: #333333;
+          padding: 0.12rem;
+        }
+      }
+      .f-cb {
+        font-size: 0.18rem;
+        height: 0.44rem;
+        width: 3.5rem;
+        background: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        span {
+          color: #ffffff;
+        }
+      }
+      .u-zc-agree {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #999999;
+        input {
+          height: 0.18rem;
+          width: 0.18rem;
+        }
+      }
+    }
+  }
+}

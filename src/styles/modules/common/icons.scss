@@ -28,3 +28,23 @@
   @extend .iconfont;
   font-size: .12rem;
 }
+.iconfontWeiBo{
+  @extend .iconfont;
+  font-size: .34rem;
+  color: rgb(246, 159, 78);
+}
+.iconfont2{
+  @extend .iconfont;
+  font-size: .3rem;
+  color: rgb(126, 166, 231);
+}
+.iconfont3{
+  @extend .iconfont;
+  font-size: .3rem;
+  color: rgb(125, 203, 235);
+}
+.iconfontHeader{
+  @extend .iconfont;
+  font-size: .15rem;
+  color: #999999;
+}

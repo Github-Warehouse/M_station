@@ -19,8 +19,8 @@ const router = {
             case '#register':
                 $('main').html(registerTpl)
                 break;
-            default:
-                $('main').html(positionTpl)
+            // default:
+            //     $('main').html(positionTpl)
         }
         $(`.navlist a[href='${hash}']`).closest('li').addClass('active').siblings().removeClass('active')
     },
