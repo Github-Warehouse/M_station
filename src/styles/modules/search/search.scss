@@ -1,0 +1,50 @@
+.searchBox {
+  .m-searchbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .44rem;
+    .m-searchbox {
+      display: flex;
+      align-items: center;
+      background: rgb(235, 235, 235);
+      height: .35rem;
+      border-radius: .08rem;
+      input {
+        outline: 0;
+        background: rgb(235, 235, 235);
+        border: none;
+        width: 2.2rem
+      }
+    }
+    button{
+        background: none;
+        border: none;
+        color: #999999;
+        font-size: .18rem;
+    }
+  }
+  .m-hotwordwrap{
+    font-size: .18rem;
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .m-hotwordlist{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            list-style: none;
+            border: .01rem solid #999999;
+            border-radius: .04rem;
+            padding: .03rem .08rem;
+            margin: .04rem;
+        }
+        li:nth-of-type(1){
+          display: none;
+        }
+    }
+  }
+}

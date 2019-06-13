@@ -11,14 +11,13 @@ import fetch from '../models/fetch'
 //     router.push('/index/details?id=' + id)
 // }
 
-const renderList = async () => {
+const renderPositonList = async () => {
 
     $('main').html(positionTpl)
 
-    let data = await fetch.get('/json/result')
-
-    let renderpositionListTplListTpl = template.render(positionListTpl, { data })
-    $(".m-commodity").html(renderpositionListTplListTpl)
+    let data = await fetch.getPosition('/json/result')
+    let renderpositionListTpl = template.render(positionListTpl, { data })
+    $(".m-commodity").html(renderpositionListTpl)
 
 
     // 实例化 Better scroll
@@ -73,5 +72,5 @@ const renderList = async () => {
 }
 
 export default {
-    renderList
+    renderPositonList
 }

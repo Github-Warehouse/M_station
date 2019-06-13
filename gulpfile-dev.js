@@ -77,7 +77,7 @@ function server() {
             livereload: true,
             middleware: [
                 proxy('/api', {
-                    target: 'https://m.lagou.com',
+                    target: 'https://m.kaola.com',
                     changeOrigin: true, // 访问不同的域名，需要配置成 true
                     pathRewrite: {
                         '^/api': ''

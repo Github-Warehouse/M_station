@@ -6,6 +6,6 @@ import positionController from './position'
 export default {
     render() {
         $('#app').html(renderIndexTpl)
-        positionController.renderList()
+        positionController.renderPositonList()
     }
 }

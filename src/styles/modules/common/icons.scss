@@ -48,3 +48,14 @@
   font-size: .15rem;
   color: #999999;
 }
+.iconfontSearch{
+  @extend .iconfont;
+  color: #747272;
+  font-size: .3rem;
+}
+.iconfontSearch2{
+  @extend .iconfont;
+  color: #747272;
+  font-size: .2rem;
+  padding: 0 .1rem;
+}
